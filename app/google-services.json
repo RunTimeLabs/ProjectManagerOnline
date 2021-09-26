@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "151008100279",
+    "project_id": "projectmanageronline-2cea2",
+    "storage_bucket": "projectmanageronline-2cea2.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:151008100279:android:38600ea5fdf8fde023f232",
+        "android_client_info": {
+          "package_name": "com.example.a8gate"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "151008100279-tf2np5e886t0t95qm3rrop0n27pgc6u9.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBxMjR6NzRV4OdfikjFhWtC9xUHk5UGvIo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "151008100279-tf2np5e886t0t95qm3rrop0n27pgc6u9.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
