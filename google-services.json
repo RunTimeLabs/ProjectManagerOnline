@@ -1,15 +1,16 @@
 {
   "project_info": {
     "project_number": "151008100279",
+    "firebase_url": "https://projectmanageronline-2cea2-default-rtdb.firebaseio.com",
     "project_id": "projectmanageronline-2cea2",
     "storage_bucket": "projectmanageronline-2cea2.appspot.com"
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:151008100279:android:38600ea5fdf8fde023f232",
+        "mobilesdk_app_id": "1:151008100279:android:e152add9a23cecba23f232",
         "android_client_info": {
-          "package_name": "com.example.a8gate"
+          "package_name": "com.example.ProjectManagerOnline"
         }
       },
       "oauth_client": [
