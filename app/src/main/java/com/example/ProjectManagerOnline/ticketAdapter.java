@@ -1,6 +1,9 @@
 package com.example.ProjectManagerOnline;
 
 import android.annotation.SuppressLint;
+import android.app.AlertDialog;
+import android.app.DatePickerDialog;
+import android.content.DialogInterface;
 import android.graphics.ColorSpace;
 import android.view.LayoutInflater;
 import android.view.View;
@@ -37,7 +40,7 @@ public class ticketAdapter extends FirebaseRecyclerAdapter <Category, ticketAdap
     }
 
     @Override
-    protected void onBindViewHolder(@NonNull ticketViewHolder holder, @SuppressLint("RecyclerView") int position, @NonNull Category model) {
+    protected void onBindViewHolder(@NonNull ticketViewHolder holder, @SuppressLint("RecyclerView") final int position, @NonNull Category model) {
 
         holder.ticketCat.setText(model.getTicketCategory());
         holder.ticketPrice.setText(model.getTicketPrice());
@@ -88,7 +91,35 @@ public class ticketAdapter extends FirebaseRecyclerAdapter <Category, ticketAdap
             }
         });
 
-        //holder.btnDel.setOnClickListener();
+        holder.btnDel.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                AlertDialog.Builder builder = new AlertDialog.Builder(holder.ticketCat.getContext());
+                builder.setTitle("Are you sure?");
+                builder.setMessage("This process can not undo. Your data will deleted permanently from the database. Please make sure before continue this process.");
+
+                builder.setPositiveButton("Continue", new DialogInterface.OnClickListener() {
+                    @Override
+                    public void onClick(DialogInterface dialogInterface, int i) {
+
+                        FirebaseDatabase.getInstance().getReference().child("Category")
+                                .child(getRef(position).getKey()).removeValue();
+                        Toast.makeText(holder.ticketCat.getContext(), "Deleted Successfully", Toast.LENGTH_SHORT).show();
+
+                    }
+                });
+
+                builder.setNegativeButton("Cancel", new DialogInterface.OnClickListener() {
+                    @Override
+                    public void onClick(DialogInterface dialogInterface, int i) {
+
+                        Toast.makeText(holder.ticketCat.getContext(), "Canceled", Toast.LENGTH_SHORT).show();
+
+                    }
+                });
+                builder.show();
+            }
+        });
 
     }
 
