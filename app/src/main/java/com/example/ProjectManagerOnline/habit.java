@@ -6,15 +6,22 @@ import androidx.appcompat.app.AppCompatActivity;
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.MenuItem;
+import android.view.View;
 
 import com.google.android.material.bottomnavigation.BottomNavigationView;
+import com.google.android.material.floatingactionbutton.FloatingActionButton;
 
 public class habit extends AppCompatActivity {
+    FloatingActionButton fab;
+
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_habit);
+
+
 
         //Initialize And Assign Variable
 
@@ -22,6 +29,14 @@ public class habit extends AppCompatActivity {
 
         //Set Home Selected
         bottomNavigationView.setSelectedItemId(R.id.habit);
+
+        fab=(FloatingActionButton)findViewById(R.id.fadd);
+        fab.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+
+            }
+        });
 
         //Perform itemSelectedListener
         bottomNavigationView.setOnNavigationItemSelectedListener(new BottomNavigationView.OnNavigationItemSelectedListener() {

@@ -16,6 +16,9 @@
             android:exported="true"
             tools:ignore="Instantiatable" />
         <activity
+            android:name=".addData"
+            android:exported="true" />
+        <activity
             android:name=".meal"
             android:exported="true" />
         <activity

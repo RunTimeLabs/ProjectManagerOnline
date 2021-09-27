@@ -27,4 +27,17 @@
         android:layout_alignParentBottom="true"
         />
 
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/fadd"
+        android:layout_width="134dp"
+        android:layout_height="134dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="311dp"
+        android:layout_marginEnd="44dp"
+        android:layout_marginBottom="91dp"
+        android:clickable="true"
+        app:srcCompat="@drawable/ic_baseline_add_circle_outline_24" />
+
 </RelativeLayout>
