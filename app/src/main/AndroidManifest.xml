@@ -12,6 +12,8 @@
         android:theme="@style/Theme.ProjectManagerOnline">
         <activity
             android:name=".viewEditDeleteTicket"
+            android:label="Ticketing"
+            android:parentActivityName=".Ticketing"
             android:exported="true" />
         <activity
             android:name=".ViewWork"

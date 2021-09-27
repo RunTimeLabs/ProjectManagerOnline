@@ -14,6 +14,8 @@ import com.google.android.material.bottomnavigation.BottomNavigationView;
 
 public class Ticketing extends AppCompatActivity {
 
+    Button btnViewall;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -71,6 +73,14 @@ public class Ticketing extends AppCompatActivity {
                 }
                 return false;
             }
+        });
+
+        btnViewall = findViewById(R.id.btn_viewall_activity);
+
+        btnViewall.setOnClickListener(view -> {
+            Intent intent = new Intent(Ticketing.this, viewEditDeleteTicket.class);
+            startActivity(intent);
+
         });
 
     }
