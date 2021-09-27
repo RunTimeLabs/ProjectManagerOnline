@@ -48,11 +48,7 @@ public class body extends AppCompatActivity {
                                 ,meal.class));
                         overridePendingTransition(0,0);
                         return true;
-                    case R.id.RecyclerView:
-                        startActivity(new Intent(getApplicationContext()
-                                ,RecyclerView.class));
-                        overridePendingTransition(0,0);
-                        return true;
+
 
                 }
                 return false;

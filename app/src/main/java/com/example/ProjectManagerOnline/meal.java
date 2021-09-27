@@ -24,7 +24,7 @@ public class meal extends AppCompatActivity {
 
     FloatingActionButton fb;
     EditText name, work, description, purl;
-    Button submit, back;
+    Button submit, viewbtn;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -36,14 +36,6 @@ public class meal extends AppCompatActivity {
         work = (EditText)findViewById(R.id.add_work);
         purl = (EditText)findViewById(R.id.add_purl);
 
-        back = (Button)findViewById(R.id.add_back);
-        back.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                startActivity(new Intent(getApplicationContext(),MainActivity.class));
-                finish();
-            }
-        });
 
         submit = (Button)findViewById(R.id.add_submit);
         submit.setOnClickListener(new View.OnClickListener() {
@@ -94,17 +86,19 @@ public class meal extends AppCompatActivity {
                     case R.id.meal:
                         return true;
 
-                    case R.id.RecyclerView:
-                        startActivity(new Intent(getApplicationContext()
-                                ,RecyclerView.class));
-                        overridePendingTransition(0,0);
-                        return true;
                 }
                 return false;
             }
         });
 
 
+        viewbtn = findViewById(R.id.viewbtn);
+
+        viewbtn.setOnClickListener(view -> {
+            Intent intent = new Intent(meal.this, ViewWork.class);
+            startActivity(intent);
+
+        });
     }
 
     private void processinsert()

@@ -69,17 +69,6 @@
         android:text="Add to TodoList"
         android:textSize="20sp" />
 
-    <Button
-        android:id="@+id/add_back"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_above="@+id/bottom_nav"
-        android:layout_alignParentEnd="true"
-        android:layout_marginEnd="158dp"
-        android:layout_marginBottom="135dp"
-        android:text="Back"
-        android:textSize="20sp" />
-
     <com.google.android.material.bottomnavigation.BottomNavigationView
         android:id="@+id/bottom_nav"
         android:layout_width="match_parent"
@@ -104,5 +93,17 @@
         android:layout_marginBottom="126dp"
         android:clickable="true"
         app:srcCompat="@drawable/ic_baseline_add_circle_outline_24" />
+
+    <Button
+        android:id="@+id/viewbtn"
+        android:layout_width="130dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="137dp"
+        android:layout_marginEnd="144dp"
+        android:layout_marginBottom="186dp"
+        android:text="View Work" />
 
 </RelativeLayout>

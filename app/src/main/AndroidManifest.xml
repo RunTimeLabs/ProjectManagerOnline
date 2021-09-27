@@ -10,7 +10,11 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.ProjectManagerOnline">
-
+        <activity
+            android:name=".ViewWork"
+            android:exported="true"
+            android:label="View Work"
+            android:parentActivityName=".meal"/>
         <activity
             android:name=".RecyclerView"
             android:exported="true"

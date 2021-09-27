@@ -22,9 +22,4 @@
         android:title="Meal"
         android:icon="@drawable/ic_meal"/>
 
-    <item
-        android:id="@+id/RecyclerView"
-        android:title="RecyclerView"
-        android:icon="@drawable/ic_recyclerview"/>
-
 </menu>
