@@ -12,12 +12,12 @@ import android.widget.Toast;
 
 import com.google.android.material.bottomnavigation.BottomNavigationView;
 
-public class body extends AppCompatActivity {
+public class Ticketing extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_body);
+        setContentView(R.layout.activity_ticketing);
 
         final EditText addCategory = (findViewById(R.id.etAddCategory));
         Button btnAdd = (findViewById(R.id.btn_add_cat));
@@ -62,7 +62,7 @@ public class body extends AppCompatActivity {
 
                     case R.id.meal:
                         startActivity(new Intent(getApplicationContext()
-                                ,meal.class));
+                                , postevent.class));
                         overridePendingTransition(0,0);
                         return true;
 

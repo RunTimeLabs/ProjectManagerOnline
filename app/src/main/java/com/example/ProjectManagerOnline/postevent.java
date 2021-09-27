@@ -20,7 +20,7 @@ import com.google.firebase.database.FirebaseDatabase;
 import java.util.HashMap;
 import java.util.Map;
 
-public class meal extends AppCompatActivity {
+public class postevent extends AppCompatActivity {
 
     FloatingActionButton fb;
     EditText name, work, description, purl;
@@ -29,7 +29,7 @@ public class meal extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_meal);
+        setContentView(R.layout.activity_postevent);
 
         name = (EditText)findViewById(R.id.add_name);
         description = (EditText)findViewById(R.id.add_description);
@@ -56,7 +56,7 @@ public class meal extends AppCompatActivity {
         fb.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                startActivity(new Intent(getApplicationContext(),meal.class));
+                startActivity(new Intent(getApplicationContext(), postevent.class));
             }
         });
 
@@ -79,7 +79,7 @@ public class meal extends AppCompatActivity {
 
                     case R.id.body:
                         startActivity(new Intent(getApplicationContext()
-                                ,body.class));
+                                , Ticketing.class));
                         overridePendingTransition(0,0);
                         return true;
 
@@ -95,7 +95,7 @@ public class meal extends AppCompatActivity {
         viewbtn = findViewById(R.id.viewbtn);
 
         viewbtn.setOnClickListener(view -> {
-            Intent intent = new Intent(meal.this, ViewWork.class);
+            Intent intent = new Intent(postevent.this, ViewWork.class);
             startActivity(intent);
 
         });

@@ -54,13 +54,13 @@ public class habit extends AppCompatActivity {
 
                     case R.id.body:
                         startActivity(new Intent(getApplicationContext()
-                                , com.example.ProjectManagerOnline.body.class));
+                                , Ticketing.class));
                         overridePendingTransition(0,0);
                         return true;
 
                     case R.id.meal:
                         startActivity(new Intent(getApplicationContext()
-                                , com.example.ProjectManagerOnline.meal.class));
+                                , postevent.class));
                         overridePendingTransition(0,0);
                         return true;
 

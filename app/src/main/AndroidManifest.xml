@@ -14,19 +14,13 @@
             android:name=".ViewWork"
             android:exported="true"
             android:label="View Work"
-            android:parentActivityName=".meal"/>
+            android:parentActivityName=".postevent"/>
+
         <activity
-            android:name=".RecyclerView"
-            android:exported="true"
-            tools:ignore="Instantiatable" />
-        <activity
-            android:name=".addData"
+            android:name=".postevent"
             android:exported="true" />
         <activity
-            android:name=".meal"
-            android:exported="true" />
-        <activity
-            android:name=".body"
+            android:name=".Ticketing"
             android:exported="true" />
         <activity
             android:name=".habit"
