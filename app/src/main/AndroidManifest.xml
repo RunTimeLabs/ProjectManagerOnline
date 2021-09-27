@@ -13,10 +13,15 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.ProjectManagerOnline">
         <activity
-            android:name=".viewEditDeleteTicket"
-            android:label="Ticketing"
-            android:parentActivityName=".Ticketing"
+            android:name=".viewPlans"
+            android:label="View Plans"
+            android:parentActivityName=".viewPlans"
             android:exported="true" />
+        <activity
+            android:name=".viewEditDeleteTicket"
+            android:exported="true"
+            android:label="Ticketing"
+            android:parentActivityName=".Ticketing" />
         <activity
             android:name=".ViewWork"
             android:exported="true"

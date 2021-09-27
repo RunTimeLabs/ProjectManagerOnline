@@ -12,7 +12,7 @@ import com.google.android.material.bottomnavigation.BottomNavigationView;
 import com.google.android.material.floatingactionbutton.FloatingActionButton;
 
 public class marketingplan extends AppCompatActivity {
-    FloatingActionButton fab;
+    FloatingActionButton fview;
 
 
 
@@ -30,13 +30,6 @@ public class marketingplan extends AppCompatActivity {
         //Set Home Selected
         bottomNavigationView.setSelectedItemId(R.id.habit);
 
-        fab=(FloatingActionButton)findViewById(R.id.fadd);
-        fab.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-
-            }
-        });
 
         //Perform itemSelectedListener
         bottomNavigationView.setOnNavigationItemSelectedListener(new BottomNavigationView.OnNavigationItemSelectedListener() {
@@ -67,6 +60,13 @@ public class marketingplan extends AppCompatActivity {
                 }
                 return false;
             }
+        });
+        fview = findViewById(R.id.fview);
+
+        fview.setOnClickListener(view -> {
+            Intent intent = new Intent(marketingplan.this, viewPlans.class);
+            startActivity(intent);
+
         });
     }
 }
