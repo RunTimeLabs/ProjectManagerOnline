@@ -54,7 +54,7 @@ public class Ticketing extends AppCompatActivity {
 
                     case R.id.habit:
                         startActivity(new Intent(getApplicationContext()
-                                ,habit.class));
+                                , marketingplan.class));
                         overridePendingTransition(0,0);
                         return true;
 

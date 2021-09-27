@@ -25,7 +25,7 @@
             android:name=".Ticketing"
             android:exported="true" />
         <activity
-            android:name=".habit"
+            android:name=".marketingplan"
             android:exported="true" />
         <activity
             android:name=".MainActivity"

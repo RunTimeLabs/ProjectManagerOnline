@@ -32,7 +32,7 @@ public class addData extends AppCompatActivity {
         back.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                startActivity(new Intent(getApplicationContext(),habit.class));
+                startActivity(new Intent(getApplicationContext(),marketingplan.class));
                 finish();
             }
         });

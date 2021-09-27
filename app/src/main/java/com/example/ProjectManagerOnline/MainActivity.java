@@ -33,7 +33,7 @@ public class MainActivity extends AppCompatActivity {
 
                     case R.id.habit:
                         startActivity(new Intent(getApplicationContext()
-                                , com.example.ProjectManagerOnline.habit.class));
+                                , marketingplan.class));
                         overridePendingTransition(0,0);
                         return true;
 

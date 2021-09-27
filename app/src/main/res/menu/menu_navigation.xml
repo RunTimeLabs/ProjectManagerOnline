@@ -9,12 +9,12 @@
     <item
         android:id="@+id/habit"
         android:title="Pre"
-        android:icon="@drawable/ic_habit"/>
+        android:icon="@drawable/ic_pre"/>
 
     <item
         android:id="@+id/body"
         android:title="Ticketing"
-        android:icon="@drawable/ic_body"/>
+        android:icon="@drawable/ic_ticket"/>
 
 
     <item

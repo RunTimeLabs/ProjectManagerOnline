@@ -11,7 +11,7 @@ import android.view.View;
 import com.google.android.material.bottomnavigation.BottomNavigationView;
 import com.google.android.material.floatingactionbutton.FloatingActionButton;
 
-public class habit extends AppCompatActivity {
+public class marketingplan extends AppCompatActivity {
     FloatingActionButton fab;
 
 
@@ -19,7 +19,7 @@ public class habit extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_habit);
+        setContentView(R.layout.activity_marketingplan);
 
 
 

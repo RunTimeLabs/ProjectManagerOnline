@@ -6,10 +6,8 @@ import androidx.appcompat.app.AppCompatActivity;
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.MenuItem;
-import android.view.View;
 
 import com.google.android.material.bottomnavigation.BottomNavigationView;
-import com.google.android.material.floatingactionbutton.FloatingActionButton;
 
 public class postevent extends AppCompatActivity {
 
@@ -42,7 +40,7 @@ public class postevent extends AppCompatActivity {
 
                     case R.id.habit:
                         startActivity(new Intent(getApplicationContext()
-                                , habit.class));
+                                , marketingplan.class));
                         overridePendingTransition(0,0);
                         return true;
 
