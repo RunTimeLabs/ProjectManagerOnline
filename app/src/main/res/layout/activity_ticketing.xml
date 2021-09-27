@@ -20,32 +20,30 @@
     <TextView
 
         android:id="@+id/topic1"
-        android:layout_width="153dp"
+        android:layout_width="166dp"
         android:layout_height="wrap_content"
-        android:layout_above="@+id/btn_add_cat"
-        android:layout_below="@+id/img1"
         android:layout_alignParentStart="true"
         android:layout_alignParentEnd="true"
-        android:layout_marginStart="123dp"
-        android:layout_marginTop="28dp"
-        android:layout_marginEnd="134dp"
-        android:layout_marginBottom="249dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="119dp"
+        android:layout_marginEnd="126dp"
+        android:layout_marginBottom="506dp"
         android:text="Ticketing"
+        android:textAlignment="center"
         android:textSize="34sp"
         android:textStyle="bold" />
 
     <TextView
-        android:layout_width="218dp"
-        android:layout_height="51dp"
-        android:layout_alignStart="@+id/topic1"
-        android:layout_alignTop="@+id/topic1"
-        android:layout_alignBottom="@+id/etAddCategory"
+        android:layout_width="263dp"
+        android:layout_height="45dp"
+        android:layout_alignParentStart="true"
         android:layout_alignParentEnd="true"
-        android:layout_marginStart="-43dp"
-        android:layout_marginTop="93dp"
-        android:layout_marginEnd="91dp"
-        android:layout_marginBottom="115dp"
-        android:text="Add ticket category"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="71dp"
+        android:layout_marginEnd="76dp"
+        android:layout_marginBottom="456dp"
+        android:text="Ticket Category :"
+        android:textAlignment="center"
         android:textSize="24sp"
         android:textStyle="bold" />
 
@@ -55,8 +53,10 @@
         android:layout_height="wrap_content"
         android:layout_alignParentStart="true"
         android:layout_alignParentEnd="true"
-        android:layout_marginStart="34dp"
-        android:layout_marginEnd="16dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="24dp"
+        android:layout_marginEnd="24dp"
+        android:layout_marginBottom="389dp"
         android:autofillHints="cat1"
         android:inputType="textUri"
         android:minHeight="60dp"
@@ -64,10 +64,14 @@
 
     <Button
         android:id="@+id/btn_add_cat"
-        android:layout_width="match_parent"
+        android:layout_width="295dp"
         android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
         android:layout_alignParentBottom="true"
-        android:layout_marginBottom="243dp"
+        android:layout_marginStart="56dp"
+        android:layout_marginEnd="59dp"
+        android:layout_marginBottom="198dp"
         android:background="@android:color/holo_blue_dark"
         android:text="Add"
         android:textColor="#212121" />
@@ -81,5 +85,34 @@
         app:itemIconTint="@drawable/selector"
         app:itemTextColor="@drawable/selector"
         app:menu="@menu/menu_navigation" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="241dp"
+        android:layout_height="42dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="85dp"
+        android:layout_marginEnd="85dp"
+        android:layout_marginBottom="329dp"
+        android:text="Ticket Price :"
+        android:textAlignment="center"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/etPrice"
+        android:layout_width="wrap_content"
+        android:layout_height="60dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="26dp"
+        android:layout_marginEnd="25dp"
+        android:layout_marginBottom="268dp"
+        android:ems="10"
+        android:inputType="number"
+        tools:ignore="SpeakableTextPresentCheck" />
 
 </RelativeLayout>
