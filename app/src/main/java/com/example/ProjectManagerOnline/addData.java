@@ -54,7 +54,6 @@ public class addData extends AppCompatActivity {
         map.put("description",description.getText().toString());
         map.put("remarks",remarks.getText().toString());
         map.put("purl",purl.getText().toString());
-        FirebaseDatabase.getInstance().getReference().child("Todolist").push()
-                .setValue()
+        FirebaseDatabase.getInstance().getReference().child("Todolist").push().setValue();
     }
 }

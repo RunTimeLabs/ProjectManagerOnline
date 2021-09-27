@@ -5,26 +5,81 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".body">
+    tools:context=".body"
+    tools:ignore="HardcodedText">
+
+    <ImageView
+        android:id="@+id/img1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:contentDescription="@string/common_google_play_services_enable_button"
+        android:scaleType="fitXY"
+        android:src="@drawable/download" />
+
 
     <TextView
 
-        android:layout_width="wrap_content"
+        android:id="@+id/topic1"
+        android:layout_width="153dp"
         android:layout_height="wrap_content"
-        android:text="Body"
-        android:textSize="50sp"
-        android:textStyle="bold"
-        android:layout_centerInParent="true" />
+        android:layout_above="@+id/btn_add_cat"
+        android:layout_below="@+id/img1"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="123dp"
+        android:layout_marginTop="28dp"
+        android:layout_marginEnd="134dp"
+        android:layout_marginBottom="249dp"
+        android:text="Ticketing"
+        android:textSize="34sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="218dp"
+        android:layout_height="51dp"
+        android:layout_alignStart="@+id/topic1"
+        android:layout_alignTop="@+id/topic1"
+        android:layout_alignBottom="@+id/etAddCategory"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="-43dp"
+        android:layout_marginTop="93dp"
+        android:layout_marginEnd="91dp"
+        android:layout_marginBottom="115dp"
+        android:text="Add ticket category"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/etAddCategory"
+        android:layout_width="362dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="34dp"
+        android:layout_marginEnd="16dp"
+        android:autofillHints="cat1"
+        android:inputType="textUri"
+        android:minHeight="60dp"
+        tools:ignore="SpeakableTextPresentCheck" />
+
+    <Button
+        android:id="@+id/btn_add_cat"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="243dp"
+        android:background="@android:color/holo_blue_dark"
+        android:text="Add"
+        android:textColor="#212121" />
 
     <com.google.android.material.bottomnavigation.BottomNavigationView
         android:id="@+id/bottom_nav"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
         app:itemBackground="@color/teal_700"
         app:itemIconTint="@drawable/selector"
         app:itemTextColor="@drawable/selector"
-        app:menu="@menu/menu_navigation"
-        android:layout_alignParentBottom="true"
-        />
+        app:menu="@menu/menu_navigation" />
 
 </RelativeLayout>
