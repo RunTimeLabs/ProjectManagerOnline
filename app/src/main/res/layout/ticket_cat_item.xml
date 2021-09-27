@@ -15,26 +15,51 @@
         android:padding="15dp">
 
         <TextView
-            android:layout_width="match_parent"
+            android:id="@+id/cattext1"
+            android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:id="@+id/cattext"
-            android:text="Ticket Category"
-            android:textStyle="bold"
-            android:textSize="24dp"
-            android:textColor="@color/black"
             android:layout_margin="10dp"
-            />
+            android:text="Category Name : "
+            android:textColor="@color/black"
+            android:textSize="20dp"
+            android:textStyle="bold" />
+
         <TextView
+            android:id="@+id/cattext"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:id="@+id/ticketPrice"
-            android:text="Ticket Price"
-            android:textStyle="bold"
-            android:textSize="24dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="10dp"
+            android:layout_marginBottom="10dp"
+            android:layout_toRightOf="@id/cattext1"
+            android:text="Ticket Category"
             android:textColor="@color/black"
+            android:textSize="20dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/tixketPrice1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/cattext1"
             android:layout_margin="10dp"
+            android:text="Ticket Price :    LKR"
+            android:textColor="@color/black"
+            android:textSize="20dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/ticketPrice"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
             android:layout_below="@id/cattext"
-            />
+            android:layout_margin="10dp"
+            android:layout_toRightOf="@id/tixketPrice1"
+            android:text="Ticket Price"
+            android:textColor="@color/black"
+            android:textSize="20dp"
+            android:textStyle="bold" />
 
     </RelativeLayout>
 

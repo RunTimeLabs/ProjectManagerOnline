@@ -49,5 +49,5 @@ public class ticketAdapter extends FirebaseRecyclerAdapter <Category, ticketAdap
             ticketCat = (TextView) itemView.findViewById(R.id.cattext);
             ticketPrice = (TextView) itemView.findViewById(R.id.ticketPrice);
         }
-    }
+    }//anjalirajkuar
 }
