@@ -61,7 +61,7 @@ public class Ticketing extends AppCompatActivity {
                     case R.id.body:
                         return true;
 
-                    case R.id.meal:
+                    case R.id.postevent:
                         startActivity(new Intent(getApplicationContext()
                                 , postevent.class));
                         overridePendingTransition(0,0);

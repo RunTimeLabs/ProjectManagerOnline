@@ -58,7 +58,7 @@ public class habit extends AppCompatActivity {
                         overridePendingTransition(0,0);
                         return true;
 
-                    case R.id.meal:
+                    case R.id.postevent:
                         startActivity(new Intent(getApplicationContext()
                                 , postevent.class));
                         overridePendingTransition(0,0);
