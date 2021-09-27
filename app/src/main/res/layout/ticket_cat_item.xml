@@ -54,12 +54,38 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_below="@id/cattext"
+            android:inputType="number"
             android:layout_margin="10dp"
             android:layout_toRightOf="@id/tixketPrice1"
             android:text="Ticket Price"
             android:textColor="@color/black"
             android:textSize="20dp"
             android:textStyle="bold" />
+
+        <LinearLayout
+            android:layout_below="@id/tixketPrice1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center">
+
+            <Button
+                android:layout_width="170dp"
+                android:layout_height="wrap_content"
+                android:text="Edit"
+                android:textAllCaps="false"
+                android:layout_marginRight="5dp"
+                android:id="@+id/btnEdit"/>
+
+            <Button
+                android:id="@+id/btnDel"
+                android:layout_width="170dp"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="5dp"
+                android:text="Delete"
+                android:textAllCaps="false" />
+
+        </LinearLayout>
 
     </RelativeLayout>
 
