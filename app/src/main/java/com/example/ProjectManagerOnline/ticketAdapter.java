@@ -45,6 +45,8 @@ public class ticketAdapter extends FirebaseRecyclerAdapter <Category, ticketAdap
         holder.ticketCat.setText(model.getTicketCategory());
         holder.ticketPrice.setText(model.getTicketPrice());
 
+        // ********** Update ************
+
         holder.btnEdit.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -71,6 +73,7 @@ public class ticketAdapter extends FirebaseRecyclerAdapter <Category, ticketAdap
                         map.put("ticketCategory", cat.getText().toString());
                         map.put("ticketPrice", price.getText().toString());
 
+                        //Update code
                         FirebaseDatabase.getInstance().getReference().child("Category")
                                 .child(getRef(position).getKey()).updateChildren(map)
                                 .addOnSuccessListener(new OnSuccessListener<Void>() {
@@ -91,6 +94,7 @@ public class ticketAdapter extends FirebaseRecyclerAdapter <Category, ticketAdap
             }
         });
 
+        //********* Delete *********
         holder.btnDel.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
@@ -98,6 +102,7 @@ public class ticketAdapter extends FirebaseRecyclerAdapter <Category, ticketAdap
                 builder.setTitle("Are you sure?");
                 builder.setMessage("This process can not undo. Your data will deleted permanently from the database. Please make sure before continue this process.");
 
+                // Delete code
                 builder.setPositiveButton("Continue", new DialogInterface.OnClickListener() {
                     @Override
                     public void onClick(DialogInterface dialogInterface, int i) {
