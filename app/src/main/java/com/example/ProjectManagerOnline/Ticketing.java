@@ -23,11 +23,12 @@ public class Ticketing extends AppCompatActivity {
 
         final EditText addCategory = (findViewById(R.id.etAddCategory));
         final EditText addPrice = (findViewById(R.id.etPrice));
+        final EditText addCount = (findViewById(R.id.etTicketCont));
         Button btnAdd = (findViewById(R.id.btn_add_cat));
         CategoryDAO categoryDAO = new CategoryDAO();
 
         btnAdd.setOnClickListener(v->{
-            Category category = new Category(addCategory.getText().toString(), addPrice.getText().toString());
+            Category category = new Category(addCategory.getText().toString(), addPrice.getText().toString(), addCount.getText().toString());
             categoryDAO.add(category).addOnSuccessListener(success->
             {
                 Toast.makeText(this, "Category Added Successfully!", Toast.LENGTH_LONG).show();

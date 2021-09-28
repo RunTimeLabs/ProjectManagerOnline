@@ -11,7 +11,7 @@
 
     <RelativeLayout
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_height="233dp"
         android:padding="15dp">
 
         <TextView
@@ -54,28 +54,53 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_below="@id/cattext"
-            android:inputType="number"
             android:layout_margin="10dp"
             android:layout_toRightOf="@id/tixketPrice1"
+            android:inputType="number"
             android:text="Ticket Price"
             android:textColor="@color/black"
             android:textSize="20dp"
             android:textStyle="bold" />
 
-        <LinearLayout
+        <TextView
+            android:id="@+id/tixketCount1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
             android:layout_below="@id/tixketPrice1"
+            android:layout_margin="10dp"
+            android:text="Ticket Count : "
+            android:textColor="@color/black"
+            android:textSize="20dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/ticketCount"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:orientation="horizontal"
-            android:gravity="center">
+            android:layout_below="@id/ticketPrice"
+            android:layout_margin="10dp"
+            android:layout_toRightOf="@id/tixketCount1"
+            android:inputType="number"
+            android:text="Ticket Cost"
+            android:textColor="@color/black"
+            android:textSize="20dp"
+            android:textStyle="bold" />
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/tixketCount1"
+            android:gravity="center"
+            android:orientation="horizontal">
 
             <Button
+                android:id="@+id/btnEdit"
                 android:layout_width="170dp"
                 android:layout_height="wrap_content"
-                android:text="Edit"
-                android:textAllCaps="false"
                 android:layout_marginRight="5dp"
-                android:id="@+id/btnEdit"/>
+                android:text="Edit"
+                android:textAllCaps="false" />
 
             <Button
                 android:id="@+id/btnDel"

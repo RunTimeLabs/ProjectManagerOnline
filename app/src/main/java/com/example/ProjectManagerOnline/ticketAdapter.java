@@ -44,6 +44,7 @@ public class ticketAdapter extends FirebaseRecyclerAdapter <Category, ticketAdap
 
         holder.ticketCat.setText(model.getTicketCategory());
         holder.ticketPrice.setText(model.getTicketPrice());
+        holder.ticketCount.setText(model.getTicketCount());
 
         // ********** Update ************
 
@@ -52,18 +53,20 @@ public class ticketAdapter extends FirebaseRecyclerAdapter <Category, ticketAdap
             public void onClick(View v) {
                 final DialogPlus dialogPlus = DialogPlus.newDialog(holder.ticketCat.getContext())
                         .setContentHolder(new ViewHolder(R.layout.ticket_popup))
-                        .setExpanded(true,800)
+                        .setExpanded(true,1000)
                         .create();
 
                 View view = dialogPlus.getHolderView();
 
                 EditText cat = view.findViewById(R.id.textcat);
                 EditText price = view.findViewById(R.id.textprice);
+                EditText count = view.findViewById(R.id.textCount);
 
                 Button btnUpdate = view.findViewById(R.id.btnUpdate);
 
                 cat.setText(model.getTicketCategory());
                 price.setText(model.getTicketPrice());
+                count.setText(model.getTicketCount());
 
                 dialogPlus.show();
                 btnUpdate.setOnClickListener(new View.OnClickListener() {
@@ -72,6 +75,7 @@ public class ticketAdapter extends FirebaseRecyclerAdapter <Category, ticketAdap
                         Map<String,Object> map = new HashMap<>();
                         map.put("ticketCategory", cat.getText().toString());
                         map.put("ticketPrice", price.getText().toString());
+                        map.put("ticketCount", count.getText().toString());
 
                         //Update code
                         FirebaseDatabase.getInstance().getReference().child("Category")
@@ -138,7 +142,7 @@ public class ticketAdapter extends FirebaseRecyclerAdapter <Category, ticketAdap
 
     class ticketViewHolder extends RecyclerView.ViewHolder{
 
-        TextView ticketCat,ticketPrice;
+        TextView ticketCat,ticketPrice, ticketCount;
 
         Button btnEdit, btnDel;
 
@@ -147,6 +151,7 @@ public class ticketAdapter extends FirebaseRecyclerAdapter <Category, ticketAdap
 
             ticketCat = (TextView) itemView.findViewById(R.id.cattext);
             ticketPrice = (TextView) itemView.findViewById(R.id.ticketPrice);
+            ticketCount = (TextView) itemView.findViewById(R.id.ticketCount);
 
             btnEdit = (Button) itemView.findViewById(R.id.btnEdit);
             btnDel = (Button) itemView.findViewById(R.id.btnDel);
