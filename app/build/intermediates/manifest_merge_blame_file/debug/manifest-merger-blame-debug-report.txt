@@ -1,0 +1,151 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.example.ProjectManagerOnline"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="21"
+8-->D:\MAD\ProjectManagerOnline\app\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="31" />
+9-->D:\MAD\ProjectManagerOnline\app\src\main\AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.INTERNET" />
+11-->D:\MAD\ProjectManagerOnline\app\src\main\AndroidManifest.xml:6:5-66
+11-->D:\MAD\ProjectManagerOnline\app\src\main\AndroidManifest.xml:6:22-64
+12
+13    <!-- Although the *SdkVersion is captured in gradle build files, this is required for non gradle builds -->
+14    <!-- <uses-sdk android:minSdkVersion="14"/> -->
+15    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+15-->[com.google.firebase:firebase-database:19.2.1] C:\Users\Vinuja Ransika\.gradle\caches\transforms-3\ba4086d6046464008a5104a14a1da49f\transformed\jetified-firebase-database-19.2.1\AndroidManifest.xml:25:5-79
+15-->[com.google.firebase:firebase-database:19.2.1] C:\Users\Vinuja Ransika\.gradle\caches\transforms-3\ba4086d6046464008a5104a14a1da49f\transformed\jetified-firebase-database-19.2.1\AndroidManifest.xml:25:22-76
+16
+17    <application
+17-->D:\MAD\ProjectManagerOnline\app\src\main\AndroidManifest.xml:8:5-48:19
+18        android:allowBackup="true"
+18-->D:\MAD\ProjectManagerOnline\app\src\main\AndroidManifest.xml:9:9-35
+19        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+19-->[androidx.core:core:1.5.0] C:\Users\Vinuja Ransika\.gradle\caches\transforms-3\1c82df0e58fbd0ba966b0ae0d34659c1\transformed\core-1.5.0\AndroidManifest.xml:24:18-86
+20        android:debuggable="true"
+21        android:icon="@mipmap/ic_launcher"
+21-->D:\MAD\ProjectManagerOnline\app\src\main\AndroidManifest.xml:10:9-43
+22        android:label="Event Manager Online"
+22-->D:\MAD\ProjectManagerOnline\app\src\main\AndroidManifest.xml:11:9-45
+23        android:roundIcon="@mipmap/ic_launcher_round"
+23-->D:\MAD\ProjectManagerOnline\app\src\main\AndroidManifest.xml:12:9-54
+24        android:supportsRtl="true"
+24-->D:\MAD\ProjectManagerOnline\app\src\main\AndroidManifest.xml:13:9-35
+25        android:testOnly="true"
+26        android:theme="@style/Theme.ProjectManagerOnline" >
+26-->D:\MAD\ProjectManagerOnline\app\src\main\AndroidManifest.xml:14:9-58
+27        <activity
+27-->D:\MAD\ProjectManagerOnline\app\src\main\AndroidManifest.xml:15:9-19:39
+28            android:name="com.example.ProjectManagerOnline.viewPlans"
+28-->D:\MAD\ProjectManagerOnline\app\src\main\AndroidManifest.xml:16:13-38
+29            android:exported="true"
+29-->D:\MAD\ProjectManagerOnline\app\src\main\AndroidManifest.xml:19:13-36
+30            android:label="View Plans"
+30-->D:\MAD\ProjectManagerOnline\app\src\main\AndroidManifest.xml:17:13-39
+31            android:parentActivityName="com.example.ProjectManagerOnline.viewPlans" />
+31-->D:\MAD\ProjectManagerOnline\app\src\main\AndroidManifest.xml:18:13-52
+32        <activity
+32-->D:\MAD\ProjectManagerOnline\app\src\main\AndroidManifest.xml:20:9-24:55
+33            android:name="com.example.ProjectManagerOnline.viewEditDeleteTicket"
+33-->D:\MAD\ProjectManagerOnline\app\src\main\AndroidManifest.xml:21:13-49
+34            android:exported="true"
+34-->D:\MAD\ProjectManagerOnline\app\src\main\AndroidManifest.xml:22:13-36
+35            android:label="Ticketing"
+35-->D:\MAD\ProjectManagerOnline\app\src\main\AndroidManifest.xml:23:13-38
+36            android:parentActivityName="com.example.ProjectManagerOnline.Ticketing" />
+36-->D:\MAD\ProjectManagerOnline\app\src\main\AndroidManifest.xml:24:13-52
+37        <activity
+37-->D:\MAD\ProjectManagerOnline\app\src\main\AndroidManifest.xml:25:9-29:55
+38            android:name="com.example.ProjectManagerOnline.ViewWork"
+38-->D:\MAD\ProjectManagerOnline\app\src\main\AndroidManifest.xml:26:13-37
+39            android:exported="true"
+39-->D:\MAD\ProjectManagerOnline\app\src\main\AndroidManifest.xml:27:13-36
+40            android:label="View Work"
+40-->D:\MAD\ProjectManagerOnline\app\src\main\AndroidManifest.xml:28:13-38
+41            android:parentActivityName="com.example.ProjectManagerOnline.postevent" />
+41-->D:\MAD\ProjectManagerOnline\app\src\main\AndroidManifest.xml:29:13-52
+42        <activity
+42-->D:\MAD\ProjectManagerOnline\app\src\main\AndroidManifest.xml:30:9-32:39
+43            android:name="com.example.ProjectManagerOnline.postevent"
+43-->D:\MAD\ProjectManagerOnline\app\src\main\AndroidManifest.xml:31:13-38
+44            android:exported="true" />
+44-->D:\MAD\ProjectManagerOnline\app\src\main\AndroidManifest.xml:32:13-36
+45        <activity
+45-->D:\MAD\ProjectManagerOnline\app\src\main\AndroidManifest.xml:33:9-35:39
+46            android:name="com.example.ProjectManagerOnline.Ticketing"
+46-->D:\MAD\ProjectManagerOnline\app\src\main\AndroidManifest.xml:34:13-38
+47            android:exported="true" />
+47-->D:\MAD\ProjectManagerOnline\app\src\main\AndroidManifest.xml:35:13-36
+48        <activity
+48-->D:\MAD\ProjectManagerOnline\app\src\main\AndroidManifest.xml:36:9-38:39
+49            android:name="com.example.ProjectManagerOnline.marketingplan"
+49-->D:\MAD\ProjectManagerOnline\app\src\main\AndroidManifest.xml:37:13-42
+50            android:exported="true" />
+50-->D:\MAD\ProjectManagerOnline\app\src\main\AndroidManifest.xml:38:13-36
+51        <activity
+51-->D:\MAD\ProjectManagerOnline\app\src\main\AndroidManifest.xml:39:9-47:20
+52            android:name="com.example.ProjectManagerOnline.MainActivity"
+52-->D:\MAD\ProjectManagerOnline\app\src\main\AndroidManifest.xml:40:13-41
+53            android:exported="true" >
+53-->D:\MAD\ProjectManagerOnline\app\src\main\AndroidManifest.xml:41:13-36
+54            <intent-filter>
+54-->D:\MAD\ProjectManagerOnline\app\src\main\AndroidManifest.xml:42:13-46:29
+55                <action android:name="android.intent.action.MAIN" />
+55-->D:\MAD\ProjectManagerOnline\app\src\main\AndroidManifest.xml:43:17-69
+55-->D:\MAD\ProjectManagerOnline\app\src\main\AndroidManifest.xml:43:25-66
+56
+57                <category android:name="android.intent.category.LAUNCHER" />
+57-->D:\MAD\ProjectManagerOnline\app\src\main\AndroidManifest.xml:45:17-77
+57-->D:\MAD\ProjectManagerOnline\app\src\main\AndroidManifest.xml:45:27-74
+58            </intent-filter>
+59        </activity>
+60
+61        <service
+61-->[com.google.firebase:firebase-database:19.2.1] C:\Users\Vinuja Ransika\.gradle\caches\transforms-3\ba4086d6046464008a5104a14a1da49f\transformed\jetified-firebase-database-19.2.1\AndroidManifest.xml:29:9-35:19
+62            android:name="com.google.firebase.components.ComponentDiscoveryService"
+62-->[com.google.firebase:firebase-database:19.2.1] C:\Users\Vinuja Ransika\.gradle\caches\transforms-3\ba4086d6046464008a5104a14a1da49f\transformed\jetified-firebase-database-19.2.1\AndroidManifest.xml:30:13-84
+63            android:directBootAware="true"
+63-->[com.google.firebase:firebase-common:19.3.0] C:\Users\Vinuja Ransika\.gradle\caches\transforms-3\85e5015b319cf5ccda88d9a1539b5023\transformed\jetified-firebase-common-19.3.0\AndroidManifest.xml:34:13-43
+64            android:exported="false" >
+64-->[com.google.firebase:firebase-database:19.2.1] C:\Users\Vinuja Ransika\.gradle\caches\transforms-3\ba4086d6046464008a5104a14a1da49f\transformed\jetified-firebase-database-19.2.1\AndroidManifest.xml:31:13-37
+65            <meta-data
+65-->[com.google.firebase:firebase-database:19.2.1] C:\Users\Vinuja Ransika\.gradle\caches\transforms-3\ba4086d6046464008a5104a14a1da49f\transformed\jetified-firebase-database-19.2.1\AndroidManifest.xml:32:13-34:85
+66                android:name="com.google.firebase.components:com.google.firebase.database.DatabaseRegistrar"
+66-->[com.google.firebase:firebase-database:19.2.1] C:\Users\Vinuja Ransika\.gradle\caches\transforms-3\ba4086d6046464008a5104a14a1da49f\transformed\jetified-firebase-database-19.2.1\AndroidManifest.xml:33:17-109
+67                android:value="com.google.firebase.components.ComponentRegistrar" />
+67-->[com.google.firebase:firebase-database:19.2.1] C:\Users\Vinuja Ransika\.gradle\caches\transforms-3\ba4086d6046464008a5104a14a1da49f\transformed\jetified-firebase-database-19.2.1\AndroidManifest.xml:34:17-82
+68        </service>
+69
+70        <activity
+70-->[com.google.android.gms:play-services-base:17.0.0] C:\Users\Vinuja Ransika\.gradle\caches\transforms-3\4506df1bc41cf0a2e5bf32da3bb37c2c\transformed\jetified-play-services-base-17.0.0\AndroidManifest.xml:23:9-26:75
+71            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+71-->[com.google.android.gms:play-services-base:17.0.0] C:\Users\Vinuja Ransika\.gradle\caches\transforms-3\4506df1bc41cf0a2e5bf32da3bb37c2c\transformed\jetified-play-services-base-17.0.0\AndroidManifest.xml:24:13-79
+72            android:exported="false"
+72-->[com.google.android.gms:play-services-base:17.0.0] C:\Users\Vinuja Ransika\.gradle\caches\transforms-3\4506df1bc41cf0a2e5bf32da3bb37c2c\transformed\jetified-play-services-base-17.0.0\AndroidManifest.xml:25:13-37
+73            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+73-->[com.google.android.gms:play-services-base:17.0.0] C:\Users\Vinuja Ransika\.gradle\caches\transforms-3\4506df1bc41cf0a2e5bf32da3bb37c2c\transformed\jetified-play-services-base-17.0.0\AndroidManifest.xml:26:13-72
+74
+75        <provider
+75-->[com.google.firebase:firebase-common:19.3.0] C:\Users\Vinuja Ransika\.gradle\caches\transforms-3\85e5015b319cf5ccda88d9a1539b5023\transformed\jetified-firebase-common-19.3.0\AndroidManifest.xml:26:9-30:39
+76            android:name="com.google.firebase.provider.FirebaseInitProvider"
+76-->[com.google.firebase:firebase-common:19.3.0] C:\Users\Vinuja Ransika\.gradle\caches\transforms-3\85e5015b319cf5ccda88d9a1539b5023\transformed\jetified-firebase-common-19.3.0\AndroidManifest.xml:27:13-77
+77            android:authorities="com.example.ProjectManagerOnline.firebaseinitprovider"
+77-->[com.google.firebase:firebase-common:19.3.0] C:\Users\Vinuja Ransika\.gradle\caches\transforms-3\85e5015b319cf5ccda88d9a1539b5023\transformed\jetified-firebase-common-19.3.0\AndroidManifest.xml:28:13-72
+78            android:exported="false"
+78-->[com.google.firebase:firebase-common:19.3.0] C:\Users\Vinuja Ransika\.gradle\caches\transforms-3\85e5015b319cf5ccda88d9a1539b5023\transformed\jetified-firebase-common-19.3.0\AndroidManifest.xml:29:13-37
+79            android:initOrder="100" />
+79-->[com.google.firebase:firebase-common:19.3.0] C:\Users\Vinuja Ransika\.gradle\caches\transforms-3\85e5015b319cf5ccda88d9a1539b5023\transformed\jetified-firebase-common-19.3.0\AndroidManifest.xml:30:13-36
+80
+81        <meta-data
+81-->[com.google.android.gms:play-services-basement:17.0.0] C:\Users\Vinuja Ransika\.gradle\caches\transforms-3\736795ced1125049463359fb87a935ed\transformed\jetified-play-services-basement-17.0.0\AndroidManifest.xml:23:9-25:69
+82            android:name="com.google.android.gms.version"
+82-->[com.google.android.gms:play-services-basement:17.0.0] C:\Users\Vinuja Ransika\.gradle\caches\transforms-3\736795ced1125049463359fb87a935ed\transformed\jetified-play-services-basement-17.0.0\AndroidManifest.xml:24:13-58
+83            android:value="@integer/google_play_services_version" />
+83-->[com.google.android.gms:play-services-basement:17.0.0] C:\Users\Vinuja Ransika\.gradle\caches\transforms-3\736795ced1125049463359fb87a935ed\transformed\jetified-play-services-basement-17.0.0\AndroidManifest.xml:25:13-66
+84    </application>
+85
+86</manifest>
