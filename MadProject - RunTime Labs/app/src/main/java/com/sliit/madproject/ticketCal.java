@@ -47,7 +47,7 @@ public class ticketCal extends AppCompatActivity {
         float totSoldV = Float.parseFloat(ticketSold);
         float priceV = Float.parseFloat(ticketPrice);
 
-        float avbTicketResult = totCountV - totSoldV;
+        int avbTicketResult = (int) (totCountV - totSoldV);
         float totIncomeResult = totSoldV * priceV;
         float artistTaxResult = (float) ((totCountV * priceV) * 0.12);
 
