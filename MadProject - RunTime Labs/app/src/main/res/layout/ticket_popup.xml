@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout
     xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical">
@@ -24,13 +25,14 @@
         android:text="Ticket Category"/>
 
     <EditText
+        android:id="@+id/textcat"
         android:layout_width="match_parent"
-        android:layout_height="35dp"
+        android:layout_height="48dp"
         android:layout_marginLeft="10dp"
         android:layout_marginRight="10dp"
         android:background="@drawable/rounded"
         android:gravity="center"
-        android:id="@+id/textcat"/>
+        tools:ignore="SpeakableTextPresentCheck" />
 
     <TextView
         android:layout_width="match_parent"
@@ -42,13 +44,14 @@
         android:text="Ticket Price"/>
 
     <EditText
+        android:id="@+id/textprice"
         android:layout_width="match_parent"
-        android:layout_height="35dp"
+        android:layout_height="48dp"
         android:layout_marginLeft="10dp"
         android:layout_marginRight="10dp"
         android:background="@drawable/rounded"
         android:gravity="center"
-        android:id="@+id/textprice"/>
+        tools:ignore="SpeakableTextPresentCheck" />
 
     <TextView
         android:layout_width="match_parent"
@@ -60,13 +63,14 @@
         android:text="Ticket Count"/>
 
     <EditText
+        android:id="@+id/textCount"
         android:layout_width="match_parent"
-        android:layout_height="35dp"
+        android:layout_height="48dp"
         android:layout_marginLeft="10dp"
         android:layout_marginRight="10dp"
         android:background="@drawable/rounded"
         android:gravity="center"
-        android:id="@+id/textCount"/>
+        tools:ignore="SpeakableTextPresentCheck" />
 
     <Button
         android:layout_width="match_parent"

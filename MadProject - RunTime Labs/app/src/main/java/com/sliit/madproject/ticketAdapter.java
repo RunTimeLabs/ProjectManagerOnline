@@ -53,7 +53,7 @@ public class ticketAdapter extends FirebaseRecyclerAdapter <Category, ticketAdap
             public void onClick(View v) {
                 final DialogPlus dialogPlus = DialogPlus.newDialog(holder.ticketCat.getContext())
                         .setContentHolder(new ViewHolder(R.layout.ticket_popup))
-                        .setExpanded(true,1000)
+                        .setExpanded(true,1100)
                         .create();
 
                 View view = dialogPlus.getHolderView();

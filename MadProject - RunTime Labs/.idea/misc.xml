@@ -3,9 +3,8 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
-        <entry key="..\:/MAD/ProjectManagerOnline/MadProject - RunTime Labs/app/src/main/res/layout/activity_budgetcal.xml" value="0.264" />
-        <entry key="..\:/MAD/ProjectManagerOnline/MadProject - RunTime Labs/app/src/main/res/layout/activity_main.xml" value="0.13125" />
         <entry key="..\:/SLIIT/MAD/ProjectManagerOnline/MadProject - RunTime Labs/app/src/main/res/layout/activity_add_data.xml" value="0.559375" />
+        <entry key="..\:/SLIIT/MAD/ProjectManagerOnline/MadProject - RunTime Labs/app/src/main/res/layout/activity_budgetcal.xml" value="0.559375" />
         <entry key="..\:/SLIIT/MAD/ProjectManagerOnline/MadProject - RunTime Labs/app/src/main/res/layout/activity_main.xml" value="0.559375" />
         <entry key="..\:/SLIIT/MAD/ProjectManagerOnline/MadProject - RunTime Labs/app/src/main/res/layout/activity_marketingplan.xml" value="0.559375" />
         <entry key="..\:/SLIIT/MAD/ProjectManagerOnline/MadProject - RunTime Labs/app/src/main/res/layout/activity_postevent.xml" value="0.559375" />
@@ -23,6 +22,7 @@
         <entry key="..\:/SLIIT/MAD/ProjectManagerOnline/MadProject - RunTime Labs/app/src/main/res/layout/singlepre.xml" value="0.559375" />
         <entry key="..\:/SLIIT/MAD/ProjectManagerOnline/MadProject - RunTime Labs/app/src/main/res/layout/ticket_cat_item.xml" value="0.559375" />
         <entry key="..\:/SLIIT/MAD/ProjectManagerOnline/MadProject - RunTime Labs/app/src/main/res/layout/ticket_popup.xml" value="0.559375" />
+        <entry key="..\:/SLIIT/MAD/ProjectManagerOnline/MadProject - RunTime Labs/app/src/main/res/menu/search.xml" value="0.559375" />
         <entry key="..\:/SLIIT/MAD/android_project_mad/MadProject2/app/src/main/res/layout/activity_main.xml" value="0.559375" />
         <entry key="..\:/SLIIT/MAD/android_project_mad/MadProject2/app/src/main/res/layout/activity_marketingplan.xml" value="0.559375" />
         <entry key="..\:/SLIIT/MAD/android_project_mad/MadProject2/app/src/main/res/layout/activity_ticketing.xml" value="0.559375" />
