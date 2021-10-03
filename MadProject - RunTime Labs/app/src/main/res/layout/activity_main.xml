@@ -63,14 +63,38 @@
         app:menu="@menu/menu_navigation" />
 
     <Button
+        android:id="@+id/preCalc"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="295dp"
+        android:layout_marginBottom="115dp"
+        android:text="Pre" />
+
+    <Button
+        android:id="@+id/ticketCalc"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="140dp"
+        android:layout_marginEnd="140dp"
+        android:layout_marginBottom="115dp"
+        android:text="Ticket" />
+
+    <Button
         android:id="@+id/taxcalc"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignParentStart="true"
         android:layout_alignParentEnd="true"
         android:layout_alignParentBottom="true"
-        android:layout_marginStart="303dp"
-        android:layout_marginEnd="14dp"
+        android:layout_marginStart="295dp"
+        android:layout_marginEnd="20dp"
         android:layout_marginBottom="115dp"
         android:text="Tax" />
 
