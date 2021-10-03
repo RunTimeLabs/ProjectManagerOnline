@@ -1,2 +1,0 @@
-# ProjectManagerOnline
- SLIIT - MAD - RuntimeLabs

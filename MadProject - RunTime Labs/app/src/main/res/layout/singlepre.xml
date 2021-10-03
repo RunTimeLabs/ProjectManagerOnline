@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:cardCornerRadius="5dp"
+    android:elevation="5dp"
+    app:cardUseCompatPadding="true">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="172dp"
+        android:orientation="vertical"
+        android:padding="15dp">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <androidx.appcompat.widget.LinearLayoutCompat
+                android:layout_width="211dp"
+                android:layout_height="158dp"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/planPreView"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="This is plan"
+                    android:textColor="#000" />
+
+                <TextView
+                    android:id="@+id/datePreView"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="This is date"
+                    android:textColor="#000" />
+
+                <TextView
+                    android:id="@+id/titlePreView"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="This is title"
+                    android:textColor="#000" />
+
+                <TextView
+                    android:id="@+id/eventPreView"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="This is Date"
+                    android:textColor="#000" />
+
+                <TextView
+                    android:id="@+id/detailsPreView"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="This is details"
+                    android:textColor="#000" />
+
+                <TextView
+                    android:id="@+id/remarkPreView"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="This is remark"
+                    android:textColor="#000" />
+            </androidx.appcompat.widget.LinearLayoutCompat>
+
+            <LinearLayout
+                android:layout_width="151dp"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <Button
+                    android:id="@+id/editpre1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@color/teal_200"
+                    android:text="Edit" />
+
+                <Button
+                    android:id="@+id/deletepre1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@color/design_default_color_error"
+                    android:text="delete" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+
+</androidx.cardview.widget.CardView>

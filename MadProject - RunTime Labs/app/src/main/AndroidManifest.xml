@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.sliit.madproject">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.MadProject">
+        <activity android:name=".view_pre"></activity>
+        <activity android:name=".view_posts" />
+        <activity
+            android:name=".viewPlans"
+            android:exported="true"
+            android:label="View Plans"
+            android:parentActivityName=".viewPlans" />
+        <activity
+            android:name=".viewEditDeleteTicket"
+            android:exported="true"
+            android:label="Ticketing"
+            android:parentActivityName=".Ticketing" />
+        <activity
+            android:name=".ViewWork"
+            android:exported="true"
+            android:label="View Work"
+            android:parentActivityName=".postevent" />
+        <activity
+            android:name=".postevent"
+            android:exported="true" />
+        <activity
+            android:name=".Ticketing"
+            android:exported="true" />
+        <activity
+            android:name=".marketingplan"
+            android:exported="true" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
