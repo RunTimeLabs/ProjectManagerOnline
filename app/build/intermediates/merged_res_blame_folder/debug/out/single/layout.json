@@ -1,0 +1,42 @@
+[
+    {
+        "merged": "D:\\MAD\\ProjectManagerOnline\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\ticket_popup.xml",
+        "source": "D:\\MAD\\ProjectManagerOnline\\app\\src\\main\\res\\layout\\ticket_popup.xml"
+    },
+    {
+        "merged": "D:\\MAD\\ProjectManagerOnline\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_postevent.xml",
+        "source": "D:\\MAD\\ProjectManagerOnline\\app\\src\\main\\res\\layout\\activity_postevent.xml"
+    },
+    {
+        "merged": "D:\\MAD\\ProjectManagerOnline\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_view_work.xml",
+        "source": "D:\\MAD\\ProjectManagerOnline\\app\\src\\main\\res\\layout\\activity_view_work.xml"
+    },
+    {
+        "merged": "D:\\MAD\\ProjectManagerOnline\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_marketingplan.xml",
+        "source": "D:\\MAD\\ProjectManagerOnline\\app\\src\\main\\res\\layout\\activity_marketingplan.xml"
+    },
+    {
+        "merged": "D:\\MAD\\ProjectManagerOnline\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_view_edit_delete_ticket.xml",
+        "source": "D:\\MAD\\ProjectManagerOnline\\app\\src\\main\\res\\layout\\activity_view_edit_delete_ticket.xml"
+    },
+    {
+        "merged": "D:\\MAD\\ProjectManagerOnline\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_main.xml",
+        "source": "D:\\MAD\\ProjectManagerOnline\\app\\src\\main\\res\\layout\\activity_main.xml"
+    },
+    {
+        "merged": "D:\\MAD\\ProjectManagerOnline\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\ticket_cat_item.xml",
+        "source": "D:\\MAD\\ProjectManagerOnline\\app\\src\\main\\res\\layout\\ticket_cat_item.xml"
+    },
+    {
+        "merged": "D:\\MAD\\ProjectManagerOnline\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_ticketing.xml",
+        "source": "D:\\MAD\\ProjectManagerOnline\\app\\src\\main\\res\\layout\\activity_ticketing.xml"
+    },
+    {
+        "merged": "D:\\MAD\\ProjectManagerOnline\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_view_plans.xml",
+        "source": "D:\\MAD\\ProjectManagerOnline\\app\\src\\main\\res\\layout\\activity_view_plans.xml"
+    },
+    {
+        "merged": "D:\\MAD\\ProjectManagerOnline\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_add_data.xml",
+        "source": "D:\\MAD\\ProjectManagerOnline\\app\\src\\main\\res\\layout\\activity_add_data.xml"
+    }
+]
