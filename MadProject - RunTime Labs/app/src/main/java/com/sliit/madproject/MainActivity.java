@@ -6,10 +6,12 @@ import androidx.appcompat.app.AppCompatActivity;
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.MenuItem;
+import android.widget.Button;
 
 import com.google.android.material.bottomnavigation.BottomNavigationView;
 
 public class MainActivity extends AppCompatActivity {
+    Button taxcal;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -54,6 +56,11 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
+        taxcal = findViewById(R.id.taxcalc);
+        taxcal.setOnClickListener(view -> {
+            Intent intent = new Intent(MainActivity.this, taxcal.class);
+            startActivity(intent);
 
+        });
     }
 }

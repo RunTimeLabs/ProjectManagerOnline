@@ -9,7 +9,12 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.MadProject">
-        <activity android:name=".view_pre"></activity>
+        <activity
+            android:name=".taxcal"
+            android:exported="true"
+            android:parentActivityName=".MainActivity"
+            android:label="Tax Calculator"/>
+        <activity android:name=".view_pre" />
         <activity android:name=".view_posts" />
         <activity
             android:name=".viewPlans"
