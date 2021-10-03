@@ -3,6 +3,22 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/SLIIT/MAD/ProjectManagerOnline/MadProject - RunTime Labs/app/src/main/res/layout/activity_add_data.xml" value="0.559375" />
+        <entry key="..\:/SLIIT/MAD/ProjectManagerOnline/MadProject - RunTime Labs/app/src/main/res/layout/activity_main.xml" value="0.559375" />
+        <entry key="..\:/SLIIT/MAD/ProjectManagerOnline/MadProject - RunTime Labs/app/src/main/res/layout/activity_marketingplan.xml" value="0.559375" />
+        <entry key="..\:/SLIIT/MAD/ProjectManagerOnline/MadProject - RunTime Labs/app/src/main/res/layout/activity_postevent.xml" value="0.559375" />
+        <entry key="..\:/SLIIT/MAD/ProjectManagerOnline/MadProject - RunTime Labs/app/src/main/res/layout/activity_ticketing.xml" value="0.559375" />
+        <entry key="..\:/SLIIT/MAD/ProjectManagerOnline/MadProject - RunTime Labs/app/src/main/res/layout/activity_view_edit_delete_ticket.xml" value="0.559375" />
+        <entry key="..\:/SLIIT/MAD/ProjectManagerOnline/MadProject - RunTime Labs/app/src/main/res/layout/activity_view_plans.xml" value="0.559375" />
+        <entry key="..\:/SLIIT/MAD/ProjectManagerOnline/MadProject - RunTime Labs/app/src/main/res/layout/activity_view_posts.xml" value="0.559375" />
+        <entry key="..\:/SLIIT/MAD/ProjectManagerOnline/MadProject - RunTime Labs/app/src/main/res/layout/activity_view_pre.xml" value="0.559375" />
+        <entry key="..\:/SLIIT/MAD/ProjectManagerOnline/MadProject - RunTime Labs/app/src/main/res/layout/activity_view_work.xml" value="0.559375" />
+        <entry key="..\:/SLIIT/MAD/ProjectManagerOnline/MadProject - RunTime Labs/app/src/main/res/layout/dialogcontentposts.xml" value="0.559375" />
+        <entry key="..\:/SLIIT/MAD/ProjectManagerOnline/MadProject - RunTime Labs/app/src/main/res/layout/dialogcontentpre.xml" value="0.559375" />
+        <entry key="..\:/SLIIT/MAD/ProjectManagerOnline/MadProject - RunTime Labs/app/src/main/res/layout/singlepost.xml" value="0.559375" />
+        <entry key="..\:/SLIIT/MAD/ProjectManagerOnline/MadProject - RunTime Labs/app/src/main/res/layout/singlepre.xml" value="0.559375" />
+        <entry key="..\:/SLIIT/MAD/ProjectManagerOnline/MadProject - RunTime Labs/app/src/main/res/layout/ticket_cat_item.xml" value="0.559375" />
+        <entry key="..\:/SLIIT/MAD/ProjectManagerOnline/MadProject - RunTime Labs/app/src/main/res/layout/ticket_popup.xml" value="0.559375" />
         <entry key="..\:/SLIIT/MAD/android_project_mad/MadProject2/app/src/main/res/layout/activity_main.xml" value="0.559375" />
         <entry key="..\:/SLIIT/MAD/android_project_mad/MadProject2/app/src/main/res/layout/activity_marketingplan.xml" value="0.559375" />
         <entry key="..\:/SLIIT/MAD/android_project_mad/MadProject2/app/src/main/res/layout/activity_ticketing.xml" value="0.559375" />

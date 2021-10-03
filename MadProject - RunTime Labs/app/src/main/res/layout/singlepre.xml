@@ -5,13 +5,15 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     app:cardCornerRadius="5dp"
     android:elevation="5dp"
-    app:cardUseCompatPadding="true">
+    app:cardUseCompatPadding="true"
+    android:background="@color/purple_200">
 
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="172dp"
         android:orientation="vertical"
-        android:padding="15dp">
+        android:padding="15dp"
+        android:background="@color/teal_200">
 
 
         <LinearLayout

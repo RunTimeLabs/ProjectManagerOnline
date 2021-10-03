@@ -12,7 +12,8 @@
     <RelativeLayout
         android:layout_width="match_parent"
         android:layout_height="233dp"
-        android:padding="15dp">
+        android:padding="15dp"
+        android:background="@color/teal_200">
 
         <TextView
             android:id="@+id/cattext1"

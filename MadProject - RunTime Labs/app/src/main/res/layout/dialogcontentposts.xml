@@ -6,7 +6,7 @@
     android:padding="20dp"
     android:orientation="vertical"
     android:gravity="center_horizontal"
-    >
+    android:background="@color/purple_200">
 
     <EditText
         android:id="@+id/txtTodolistEdit"

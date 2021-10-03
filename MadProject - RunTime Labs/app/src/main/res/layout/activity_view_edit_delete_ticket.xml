@@ -4,7 +4,8 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".viewEditDeleteTicket">
+    tools:context=".viewEditDeleteTicket"
+    android:background="@color/purple_200">
 
     <TextView
         android:layout_width="match_parent"
@@ -16,6 +17,7 @@
         android:layout_marginEnd="30dp"
         android:text="Ticket Categories"
         android:textAlignment="center"
+        android:textColor="#000000"
         android:textSize="34sp"
         android:textStyle="bold"
         app:layout_constraintBottom_toTopOf="@+id/rv1"
