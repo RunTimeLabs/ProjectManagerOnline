@@ -9,16 +9,21 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.MadProject">
-
-        <activity android:name=".taxcal"
+        <activity
+            android:name=".budgetcal"
             android:exported="true"
             android:parentActivityName=".MainActivity"
-            android:label="Tax Calculator"/>
-
-        <activity android:name=".ticketCal"
+            android:label="Budget Wallet"/>
+        <activity
+            android:name=".taxcal"
             android:exported="true"
-            android:parentActivityName=".MainActivity"
-            android:label="Ticketing Center"/>
+            android:label="Tax Calculator"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".ticketCal"
+            android:exported="true"
+            android:label="Ticketing Center"
+            android:parentActivityName=".MainActivity" />
         <activity android:name=".view_pre" />
         <activity android:name=".view_posts" />
         <activity

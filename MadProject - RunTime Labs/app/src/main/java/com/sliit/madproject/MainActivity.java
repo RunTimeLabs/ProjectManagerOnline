@@ -11,7 +11,7 @@ import android.widget.Button;
 import com.google.android.material.bottomnavigation.BottomNavigationView;
 
 public class MainActivity extends AppCompatActivity {
-    Button ticketCal,taxcal;
+    Button ticketCal,taxcal,bcal;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -71,5 +71,14 @@ public class MainActivity extends AppCompatActivity {
             startActivity(intent);
 
         });
+
+        //budget cal
+        bcal = findViewById(R.id.bcal);
+        bcal.setOnClickListener(view -> {
+            Intent intent = new Intent(MainActivity.this, budgetcal.class);
+            startActivity(intent);
+
+        });
+
     }
 }

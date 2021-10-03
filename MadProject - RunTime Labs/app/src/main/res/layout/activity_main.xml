@@ -63,7 +63,7 @@
         app:menu="@menu/menu_navigation" />
 
     <Button
-        android:id="@+id/preCalc"
+        android:id="@+id/bcal"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignParentStart="true"
